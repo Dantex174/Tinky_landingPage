@@ -1,0 +1,21 @@
+//Сброс стилей
+@import 'reset';
+
+//Испорт шрифта
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Unbounded&display=swap');
+
+//Импорт стилей блоков
+@import 'blocks/header';
+@import 'blocks/promo';
+
+* {
+    font-family: 'Pacifico', cursive;
+    // font-family: 'Unbounded', cursive;
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
